@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>memoria</title>
+</head>
+<body>
+   <div id="menu">
+      <div id="titulo">{{title}}</div>
+      <div><button id="new" type="button" (click)="newGame()">{{ra}}</button></div>
+   </div>
+   <div id="container-pagina">
+      <div id="container-jogo">
+         <section *ngFor="let item of arraySimbolo"><button type="button" class="btn-jogo" [disabled]="item.disabled" (click)="teste(item)">{{item.name}}</button></section>
+      </div>
+      <div id="container-pontos">
+         <div id="pontos">
+            <h1>pontos: {{pontos}}</h1>
+         </div>
+      </div>
+   </div>
+   
+
+</body>

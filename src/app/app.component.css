@@ -1,0 +1,85 @@
+body{
+    height: 600px;
+    width: 1200;
+    background-color: azure;
+    border-radius: 10px;
+    border: 0.5px;
+    border-style: solid;
+    border-color: black;
+    font-style:inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo{
+    font-size:x-large;
+    color: white;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue; 
+    padding: 4px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    justify-content: space-around;
+}
+
+
+#new{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    font-size: larger;
+}
+
+
+#container-pagina{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+}
+#container-jogo{
+    height: 350px;
+    width: 350px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+
+}
+
+.btn-jogo{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    font-size: 50px;
+    color: white;
+    background-color: darkblue;
+    border: none;
+}
+
+#container-pontos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    min-width: 250px;
+    background-color: darkblue;
+    border-radius: 5px;
+}
+
+
+#pontos{
+    color: white;
+    font-size: medium;
+}    
+
+
+
